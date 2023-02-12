@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute; width: 0; height: 0">
+    <symbol id="success" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         viewBox="0 0 50 50" xml:space="preserve">
+        <circle style="fill:#25AE88;" cx="25" cy="25" r="25"/>
+                <polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+            38,15 22,33 12,25 "/>
+    </symbol>
+    <symbol id="error" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         viewBox="0 0 50 50" xml:space="preserve">
+        <circle style="fill:#D75A4A;" cx="25" cy="25" r="25"/>
+        <polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" points="16,34 25,25 34,16
+            "/>
+        <polyline style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" points="16,16 25,25 34,34
+            "/>
+    </symbol>
+    <symbol id="favor" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"  color="#000000">
+        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"/>
+    </symbol>
+    <!--    <symbol id="">-->
+    <!--        -->
+    <!--    </symbol>-->
+
+</svg>
