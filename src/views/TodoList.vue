@@ -1,7 +1,16 @@
 <template>
-    <div>
+    <div class="todo-holder">
         <Loader :loader="isLoading"></Loader>
-        <div class="todo-holder" v-show="!isLoading">
+        <div>
+            <h3>User info:</h3>
+            <div>Name: {{user.name}}</div>
+            <div>Phone: {{user.phone}}</div>
+            <div>Website: {{user.website}}</div>
+            <div>Email: {{user.email}}</div>
+            <div>User name: {{user.username}}</div>
+
+        </div>
+        <div v-show="!isLoading">
 
             <div class="todo-option-holder">
                 <input class="search-input" type="text" placeholder="Search title" v-model="searchQuery">
@@ -253,9 +262,7 @@
         }
     }
 
-    .todo-holder {
-        height: calc(100vh - 105px);
-    }
+
 
     .search-input {
         width: 100%;
